@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DB9DFC1E10AA7700425B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9DFB1E10AA7700425B99 /* main.m */; };
+		07DB9DFF1E10AA7700425B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9DFE1E10AA7700425B99 /* AppDelegate.m */; };
+		07DB9E051E10AA7700425B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DB9E031E10AA7700425B99 /* Main.storyboard */; };
+		07DB9E071E10AA7700425B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DB9E061E10AA7700425B99 /* Assets.xcassets */; };
+		07DB9E0A1E10AA7700425B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DB9E081E10AA7700425B99 /* LaunchScreen.storyboard */; };
+		07DB9E151E10AA7700425B99 /* SlCustomModalTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E141E10AA7700425B99 /* SlCustomModalTransitionDemoTests.m */; };
+		07DB9E201E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E1F1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.m */; };
+		07DB9E2F1E10AAE600425B99 /* PresentingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E2E1E10AAE600425B99 /* PresentingViewController.m */; };
+		07DB9E321E10AAFA00425B99 /* PresenntedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E311E10AAFA00425B99 /* PresenntedViewController.m */; };
+		07DB9E351E10AB3000425B99 /* SLModalTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E341E10AB3000425B99 /* SLModalTransitionDelegate.m */; };
+		07DB9E381E10AB4B00425B99 /* OverlayAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E371E10AB4B00425B99 /* OverlayAnimationController.m */; };
+		07DB9E3B1E10C41B00425B99 /* SlideAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E3A1E10C41B00425B99 /* SlideAnimationController.m */; };
+		07DB9E3E1E10C49600425B99 /* OverlayPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB9E3D1E10C49600425B99 /* OverlayPresentationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07DB9E111E10AA7700425B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07DB9DEF1E10AA7700425B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DB9DF61E10AA7700425B99;
+			remoteInfo = SlCustomModalTransitionDemo;
+		};
+		07DB9E1C1E10AA7700425B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07DB9DEF1E10AA7700425B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DB9DF61E10AA7700425B99;
+			remoteInfo = SlCustomModalTransitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DB9DF71E10AA7700425B99 /* SlCustomModalTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlCustomModalTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DB9DFB1E10AA7700425B99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07DB9DFD1E10AA7700425B99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07DB9DFE1E10AA7700425B99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07DB9E041E10AA7700425B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07DB9E061E10AA7700425B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07DB9E091E10AA7700425B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07DB9E0B1E10AA7700425B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DB9E101E10AA7700425B99 /* SlCustomModalTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlCustomModalTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DB9E141E10AA7700425B99 /* SlCustomModalTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlCustomModalTransitionDemoTests.m; sourceTree = "<group>"; };
+		07DB9E161E10AA7700425B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DB9E1B1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlCustomModalTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DB9E1F1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlCustomModalTransitionDemoUITests.m; sourceTree = "<group>"; };
+		07DB9E211E10AA7700425B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DB9E2D1E10AAE600425B99 /* PresentingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingViewController.h; sourceTree = "<group>"; };
+		07DB9E2E1E10AAE600425B99 /* PresentingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingViewController.m; sourceTree = "<group>"; };
+		07DB9E301E10AAFA00425B99 /* PresenntedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenntedViewController.h; sourceTree = "<group>"; };
+		07DB9E311E10AAFA00425B99 /* PresenntedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresenntedViewController.m; sourceTree = "<group>"; };
+		07DB9E331E10AB3000425B99 /* SLModalTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLModalTransitionDelegate.h; sourceTree = "<group>"; };
+		07DB9E341E10AB3000425B99 /* SLModalTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLModalTransitionDelegate.m; sourceTree = "<group>"; };
+		07DB9E361E10AB4B00425B99 /* OverlayAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayAnimationController.h; sourceTree = "<group>"; };
+		07DB9E371E10AB4B00425B99 /* OverlayAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayAnimationController.m; sourceTree = "<group>"; };
+		07DB9E391E10C41B00425B99 /* SlideAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideAnimationController.h; sourceTree = "<group>"; };
+		07DB9E3A1E10C41B00425B99 /* SlideAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideAnimationController.m; sourceTree = "<group>"; };
+		07DB9E3C1E10C49600425B99 /* OverlayPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayPresentationController.h; sourceTree = "<group>"; };
+		07DB9E3D1E10C49600425B99 /* OverlayPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayPresentationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DB9DF41E10AA7700425B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB9E0D1E10AA7700425B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB9E181E10AA7700425B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DB9DEE1E10AA7700425B99 = {
+			isa = PBXGroup;
+			children = (
+				07DB9DF91E10AA7700425B99 /* SlCustomModalTransitionDemo */,
+				07DB9E131E10AA7700425B99 /* SlCustomModalTransitionDemoTests */,
+				07DB9E1E1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests */,
+				07DB9DF81E10AA7700425B99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07DB9DF81E10AA7700425B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07DB9DF71E10AA7700425B99 /* SlCustomModalTransitionDemo.app */,
+				07DB9E101E10AA7700425B99 /* SlCustomModalTransitionDemoTests.xctest */,
+				07DB9E1B1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07DB9DF91E10AA7700425B99 /* SlCustomModalTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				07DB9DFD1E10AA7700425B99 /* AppDelegate.h */,
+				07DB9DFE1E10AA7700425B99 /* AppDelegate.m */,
+				07DB9E2D1E10AAE600425B99 /* PresentingViewController.h */,
+				07DB9E2E1E10AAE600425B99 /* PresentingViewController.m */,
+				07DB9E301E10AAFA00425B99 /* PresenntedViewController.h */,
+				07DB9E311E10AAFA00425B99 /* PresenntedViewController.m */,
+				07DB9E331E10AB3000425B99 /* SLModalTransitionDelegate.h */,
+				07DB9E341E10AB3000425B99 /* SLModalTransitionDelegate.m */,
+				07DB9E361E10AB4B00425B99 /* OverlayAnimationController.h */,
+				07DB9E371E10AB4B00425B99 /* OverlayAnimationController.m */,
+				07DB9E391E10C41B00425B99 /* SlideAnimationController.h */,
+				07DB9E3A1E10C41B00425B99 /* SlideAnimationController.m */,
+				07DB9E3C1E10C49600425B99 /* OverlayPresentationController.h */,
+				07DB9E3D1E10C49600425B99 /* OverlayPresentationController.m */,
+				07DB9E031E10AA7700425B99 /* Main.storyboard */,
+				07DB9E061E10AA7700425B99 /* Assets.xcassets */,
+				07DB9E081E10AA7700425B99 /* LaunchScreen.storyboard */,
+				07DB9E0B1E10AA7700425B99 /* Info.plist */,
+				07DB9DFA1E10AA7700425B99 /* Supporting Files */,
+			);
+			path = SlCustomModalTransitionDemo;
+			sourceTree = "<group>";
+		};
+		07DB9DFA1E10AA7700425B99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DB9DFB1E10AA7700425B99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07DB9E131E10AA7700425B99 /* SlCustomModalTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07DB9E141E10AA7700425B99 /* SlCustomModalTransitionDemoTests.m */,
+				07DB9E161E10AA7700425B99 /* Info.plist */,
+			);
+			path = SlCustomModalTransitionDemoTests;
+			sourceTree = "<group>";
+		};
+		07DB9E1E1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07DB9E1F1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.m */,
+				07DB9E211E10AA7700425B99 /* Info.plist */,
+			);
+			path = SlCustomModalTransitionDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DB9DF61E10AA7700425B99 /* SlCustomModalTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DB9E241E10AA7700425B99 /* Build configuration list for PBXNativeTarget "SlCustomModalTransitionDemo" */;
+			buildPhases = (
+				07DB9DF31E10AA7700425B99 /* Sources */,
+				07DB9DF41E10AA7700425B99 /* Frameworks */,
+				07DB9DF51E10AA7700425B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlCustomModalTransitionDemo;
+			productName = SlCustomModalTransitionDemo;
+			productReference = 07DB9DF71E10AA7700425B99 /* SlCustomModalTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07DB9E0F1E10AA7700425B99 /* SlCustomModalTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DB9E271E10AA7700425B99 /* Build configuration list for PBXNativeTarget "SlCustomModalTransitionDemoTests" */;
+			buildPhases = (
+				07DB9E0C1E10AA7700425B99 /* Sources */,
+				07DB9E0D1E10AA7700425B99 /* Frameworks */,
+				07DB9E0E1E10AA7700425B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DB9E121E10AA7700425B99 /* PBXTargetDependency */,
+			);
+			name = SlCustomModalTransitionDemoTests;
+			productName = SlCustomModalTransitionDemoTests;
+			productReference = 07DB9E101E10AA7700425B99 /* SlCustomModalTransitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07DB9E1A1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DB9E2A1E10AA7700425B99 /* Build configuration list for PBXNativeTarget "SlCustomModalTransitionDemoUITests" */;
+			buildPhases = (
+				07DB9E171E10AA7700425B99 /* Sources */,
+				07DB9E181E10AA7700425B99 /* Frameworks */,
+				07DB9E191E10AA7700425B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DB9E1D1E10AA7700425B99 /* PBXTargetDependency */,
+			);
+			name = SlCustomModalTransitionDemoUITests;
+			productName = SlCustomModalTransitionDemoUITests;
+			productReference = 07DB9E1B1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07DB9DEF1E10AA7700425B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = songlin;
+				TargetAttributes = {
+					07DB9DF61E10AA7700425B99 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P5B7HFUY5Z;
+						ProvisioningStyle = Automatic;
+					};
+					07DB9E0F1E10AA7700425B99 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P5B7HFUY5Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07DB9DF61E10AA7700425B99;
+					};
+					07DB9E1A1E10AA7700425B99 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P5B7HFUY5Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07DB9DF61E10AA7700425B99;
+					};
+				};
+			};
+			buildConfigurationList = 07DB9DF21E10AA7700425B99 /* Build configuration list for PBXProject "SlCustomModalTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07DB9DEE1E10AA7700425B99;
+			productRefGroup = 07DB9DF81E10AA7700425B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07DB9DF61E10AA7700425B99 /* SlCustomModalTransitionDemo */,
+				07DB9E0F1E10AA7700425B99 /* SlCustomModalTransitionDemoTests */,
+				07DB9E1A1E10AA7700425B99 /* SlCustomModalTransitionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DB9DF51E10AA7700425B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB9E0A1E10AA7700425B99 /* LaunchScreen.storyboard in Resources */,
+				07DB9E071E10AA7700425B99 /* Assets.xcassets in Resources */,
+				07DB9E051E10AA7700425B99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB9E0E1E10AA7700425B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB9E191E10AA7700425B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DB9DF31E10AA7700425B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB9E351E10AB3000425B99 /* SLModalTransitionDelegate.m in Sources */,
+				07DB9E3B1E10C41B00425B99 /* SlideAnimationController.m in Sources */,
+				07DB9E381E10AB4B00425B99 /* OverlayAnimationController.m in Sources */,
+				07DB9E321E10AAFA00425B99 /* PresenntedViewController.m in Sources */,
+				07DB9E3E1E10C49600425B99 /* OverlayPresentationController.m in Sources */,
+				07DB9E2F1E10AAE600425B99 /* PresentingViewController.m in Sources */,
+				07DB9DFF1E10AA7700425B99 /* AppDelegate.m in Sources */,
+				07DB9DFC1E10AA7700425B99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB9E0C1E10AA7700425B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB9E151E10AA7700425B99 /* SlCustomModalTransitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB9E171E10AA7700425B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB9E201E10AA7700425B99 /* SlCustomModalTransitionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DB9E121E10AA7700425B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DB9DF61E10AA7700425B99 /* SlCustomModalTransitionDemo */;
+			targetProxy = 07DB9E111E10AA7700425B99 /* PBXContainerItemProxy */;
+		};
+		07DB9E1D1E10AA7700425B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DB9DF61E10AA7700425B99 /* SlCustomModalTransitionDemo */;
+			targetProxy = 07DB9E1C1E10AA7700425B99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07DB9E031E10AA7700425B99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DB9E041E10AA7700425B99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07DB9E081E10AA7700425B99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DB9E091E10AA7700425B99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07DB9E221E10AA7700425B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07DB9E231E10AA7700425B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07DB9E251E10AA7700425B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5B7HFUY5Z;
+				INFOPLIST_FILE = SlCustomModalTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.SlCustomModalTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07DB9E261E10AA7700425B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5B7HFUY5Z;
+				INFOPLIST_FILE = SlCustomModalTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.SlCustomModalTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07DB9E281E10AA7700425B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5B7HFUY5Z;
+				INFOPLIST_FILE = SlCustomModalTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.SlCustomModalTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlCustomModalTransitionDemo.app/SlCustomModalTransitionDemo";
+			};
+			name = Debug;
+		};
+		07DB9E291E10AA7700425B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5B7HFUY5Z;
+				INFOPLIST_FILE = SlCustomModalTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.SlCustomModalTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlCustomModalTransitionDemo.app/SlCustomModalTransitionDemo";
+			};
+			name = Release;
+		};
+		07DB9E2B1E10AA7700425B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P5B7HFUY5Z;
+				INFOPLIST_FILE = SlCustomModalTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.SlCustomModalTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlCustomModalTransitionDemo;
+			};
+			name = Debug;
+		};
+		07DB9E2C1E10AA7700425B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P5B7HFUY5Z;
+				INFOPLIST_FILE = SlCustomModalTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songlin.SlCustomModalTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlCustomModalTransitionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DB9DF21E10AA7700425B99 /* Build configuration list for PBXProject "SlCustomModalTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB9E221E10AA7700425B99 /* Debug */,
+				07DB9E231E10AA7700425B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DB9E241E10AA7700425B99 /* Build configuration list for PBXNativeTarget "SlCustomModalTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB9E251E10AA7700425B99 /* Debug */,
+				07DB9E261E10AA7700425B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07DB9E271E10AA7700425B99 /* Build configuration list for PBXNativeTarget "SlCustomModalTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB9E281E10AA7700425B99 /* Debug */,
+				07DB9E291E10AA7700425B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07DB9E2A1E10AA7700425B99 /* Build configuration list for PBXNativeTarget "SlCustomModalTransitionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB9E2B1E10AA7700425B99 /* Debug */,
+				07DB9E2C1E10AA7700425B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07DB9DEF1E10AA7700425B99 /* Project object */;
+}
